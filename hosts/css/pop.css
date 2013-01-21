@@ -1,0 +1,242 @@
+body {
+    font: 12px/1.5 'Lucida Grande',tahoma,arial,宋体b8b\4f53;
+    margin: auto;
+    padding: auto;
+    background: #E2E3E5;
+}
+a{text-decoration: none;color:#000000}
+img{border: 0px;vertical-align:middle;}
+img.flag{width: 14px;height: 14px;padding-right: 5px;}
+.hidden{display: none}
+div.addNotice{
+    margin: 30px 50px;
+    margin-bottom: 0px;
+    background: #fff;
+    padding: 20px 20px;
+}
+.divwidth table{
+    width: 700px;
+}
+.divwidth2 table,.divwidth2{
+    width: 750px;
+}
+.addNotice table{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.addNotice add.table tr td{
+    padding-right: 5px;
+    float: left;
+    valign:top;
+}
+div.addNotice textarea{
+    width: 320px;
+    height: 200px;
+}
+div.addNotice input{
+    width: 320px;
+}
+textarea{
+    text-align:left;
+    resize:none;
+}
+.bottom_button{
+    both:clear;
+    padding-top: 15px;
+    text-align: center;
+}
+.bottom_button input{
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #2D74C6;
+    font-weight: bold;
+}
+.bottom_button input.save{
+    margin-right: 40px;
+
+}
+.addNotice .more th{
+    color: #4F6B72;
+    border: 1px solid #C1DAD7;
+    letter-spacing: 2px;
+    height: 18px;
+    text-transform: uppercase;
+    padding: 6px 6px 6px 12px;
+    background: #CAE8EA no-repeat;
+}
+
+.addNotice .more{
+    border: 1px solid #C1DAD7;
+    clear: both;
+    text-align: center;
+    overflow:hidden;
+    table-layout: fixed;
+}
+.addNotice .more tr td{
+    height:25px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.more .tablebottom{
+    padding-top: 8px;
+    padding-right: 8px;
+    text-align: right;
+    font-size: 14px;
+}
+.more .tablebottom td{
+
+}
+.more .tablebottom input{
+    width: 20px;
+}
+
+.options{
+    padding-bottom: 5px;
+    float: right;
+    padding-right: 5px;
+}
+.options span{
+    padding-left: 5px;
+    line-height: 14px;
+    font-size: 13px; 
+    text-align: center;
+}
+.options .selectShare{
+    float: left;
+}
+.view{
+    margin: 30px 50px;
+    margin-bottom: 0px;
+    background: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+.view span{
+    padding-right: 20px;
+    color: #999999;
+}
+.view p{
+    text-align:justify;text-justify:inter-ideograph; text-indent:2em;
+}
+.addNotice .add select {
+    width: 100px;
+    table-layout: fixed;
+}
+
+.charTop table{
+    text-align: center;
+    border: 1px solid #2D74C6;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+}
+.charTop table tr td{
+    border: 1px solid #2D74C6;
+
+}
+.charTop table .header{
+    background: #CAE8EA no-repeat;
+}
+
+.addCustomer{
+    border: 1px solid #cccccc;
+    width: 600px;
+    
+}
+.addCustomer tr{
+    line-height: 35px;
+}
+.addCustomer tr.tableFirstTR{
+    margin-top: 15px;
+}
+.addCustomer td.name{
+    text-align: right;
+    width: 80px;
+}
+.toptitle{
+    margin-top: -10px;
+}
+.title{
+    color: #0099cc;
+}
+.tab{
+    padding-left: 15px;
+    color: #999999;
+}
+.addCustomer textarea.textareaCom{
+    height: 40px;
+}
+.bottomTable{
+    border: 1px solid #cccccc;
+    table-layout: fixed;
+}
+.doublename{
+    width: 90px;
+    text-align: right;
+}
+.checktable .doubleinput{
+    width: 250px;
+    border-bottom: 1px solid #2D74C6;
+    padding-left: 10px;
+}
+.checktable tr td{
+    height: 30px;
+}
+.leftSelectes{
+    height: 630px;
+    width: 200px;
+    background: #DFE9F5;
+    float: left;
+    border-right: 2px solid #999999;
+}
+.leftSelectes .leftSelectesTable {
+    width: 100%;
+    margin-top: 50px;
+}
+.leftSelectes .leftSelectesTable tr td{
+    border-bottom: 1px solid #999999;
+    height: 25px;
+}
+.leftSelectes .leftSelectesTable tr td a{
+    padding-left: 30px;
+    font-size: 13px;
+}
+.ckecksContent{
+    background: #ffffff;
+    height: 630px;
+}
+.toppadding{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.checkoptions{
+    height: 35px;
+    background: #ECEDEF;
+    border-bottom: 2px solid #2D74C6;
+}
+.checkoptions span{
+    line-height: 35px;
+}
+.ckecksContent span.checktitle{
+    font-size: 15px;
+    color: #09C;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.ckecksContent .checktable{
+    padding-left: 30px;
+}
+.checkmiddle tr td{
+    height: 20px;
+}
+.secondetable .doublename{
+    text-align: left;
+}
+.secondetable tr{
+    line-height: 22px;
+}

@@ -1,0 +1,197 @@
+/* 
+    Document   : customer
+    Created on : 2012-12-12, 11:06:29
+    Author     : liukai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mainBody{
+    width: 100%;
+    background-color: #F1F7FA;
+    padding-top: 5px;
+}
+.search{
+    height: 30px;
+    background-color: #E1EBF5;
+    border: 1px solid #B3C7E0;
+    margin-bottom: 10px;
+}
+.search span{
+    line-height: 28px;
+}
+.search .searchlogo{
+    padding-left: 20px;
+}
+.search .searchlogo img{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+.search .seachCate , .search .searchInput,.search .highsearchLink{
+    padding-left: 10px;
+}
+.search .seachCate select{
+    vertical-align: middle;
+    width: 100px;
+}
+.search input.searchkey{
+    vertical-align: middle;
+    width: 150px;
+}
+.search input.searchButton{
+    vertical-align: middle;
+    width: 80px;
+}
+.highsearch{
+    height: 60px;
+    background-color: #E1EBF5;
+    border: 1px solid #B3C7E0;
+    margin-bottom: 10px;
+}
+.highsearch .searchAllTips{
+    left: 20px;
+    float: left;
+    padding-left: 30px;
+}
+.highsearch .searchAllTips tr td{
+    text-align: right;
+    padding-right: 10px;
+}
+.highsearch .searchAllTips tr td span.dateToEnd{
+    text-align: left;
+}
+.highsearch .searchAllTips tr td input{
+    width: 120px;
+}
+
+/*搜索结束*/
+/*主题信息开始*/
+.mainBody img{vertical-align: middle;}
+.mainBody .mainBodyList{   
+    border: 2px solid #B3C7E0;
+}
+.mainBody .mainBodyList .listtitle{
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+    background-color: #CCDEE7;
+}
+.mainBody .mainBodyList .listtitle .title{
+    padding-left: 25px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainBody .mainBodyList .listtitle .title .topcate{
+    margin-left: 40px;
+    font-size: 12px;
+}
+.mainBody .mainBodyList .listtitle .options{
+    padding-right: 15px;
+    float: right;
+}
+
+.mainBody .mainBodyList .listcontent{
+    height: 480px;
+    margin-top: 8px;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft{
+    float: left;
+    border: 2px solid #B3C7E0;
+    width: 250px;
+    height: 470px;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .cate{
+    height: 25px;
+    background-color: #DFE9F5;
+    border-bottom: 2px solid #B3C7E0;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .cateselected{
+    height: 388px;
+    border-bottom: 2px solid #B3C7E0;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .nobottomline{
+    border-bottom: 0px solid #B3C7E0;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .cateselected .st_tree{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow:auto; 
+    height: 250px;
+}
+
+.mainBody .mainBodyList .listcontent .listcontentLeft .cateselected .options table{
+    background-color: #D3F2F4;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .cate span{
+    line-height: 25px;
+    padding-left: 8px;
+}
+.mainBody .mainBodyList .listcontent .listcontentLeft .cate img{
+    padding-left: 10px;
+    
+}
+.mainBody .mainBodyList .listcontent .listcontentMiddle{
+    float: left;
+    height: 470px;
+    line-height: 470px;
+    width: 8px;
+}
+.mainBody .mainBodyList .listcontent .listcontentRight{
+    float: left;
+    border: 2px solid #B3C7E0; 
+}
+.mainBody .mainBodyList .listcontent .listcontentRight .detailRight{
+    height: 445px;
+    overflow-x: scroll;
+    width: 922px;
+}
+.mainBody .mainBodyList .listcontent .listcontentRight table{
+    table-layout : fixed;
+    width: 900px; 
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+.mainBody .mainBodyList .listcontent .listcontentRight table tr th{
+    background-color: #DFE9F5;
+    height: 25px;   
+    table-layout : fixed;
+    border-right: 1px solid #cccccc;
+}
+.mainBody .mainBodyList .listcontent .listcontentRight table tr td{
+    table-layout : fixed;
+    text-align: center;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-break:break-all;
+    word-wrap:break-word; 
+    overflow:hidden;
+    height: 25px;
+    border-bottom: 1px solid #cccccc;
+    
+}
+.mainBody .mainBodyList .listcontent .listcontentRight .detailPageOptions{
+    clear: both;
+    bottom: 0px;
+    background-color: #D4E1F2;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    width: 100%;
+    float: right;
+    overflow: hidden;
+}
+.mainBody .mainBodyList .listcontent .listcontentRight .detailPageOptions .bottom{
+    padding-right: 20px;
+}
+#browser{
+    margin-top: 10px;
+}

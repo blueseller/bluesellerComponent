@@ -1,0 +1,177 @@
+/* 
+    Document   : headbottom
+    Created on : 2012-12-12, 11:06:47
+    Author     : liukai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font: 12px/1.5 'Lucida Grande',tahoma,arial;
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    background: url(../images/bg/topline.jpg) repeat-x;
+}
+a{text-decoration: none;color: #4890B6;CURSOR: hand}
+img {vertical-align: top;border: 0px;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:\20;display:block;height:0;clear:both;}
+.hidden{display:none;}
+/*页头开始*/
+.top{
+    padding: 0 0;
+    margin: 0 0;
+    width: 1200px;
+}
+
+.top .headerCon {
+    height: 80px;
+}
+.top .headerCon .tradeLogo{
+    float: left;
+}
+.top .headerCon .tipMessage{
+    float: left;
+    position:relative;
+    font-size: 120%;
+    height: 80px;
+    width: 600px;
+    text-align:left;
+    overflow: hidden;
+}
+.top .headerCon .tipMessage span{
+    position:absolute;
+    bottom: 0;
+    padding-left: 40px;
+    padding-bottom: 2px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.top .headerCon .userLoginMsg{
+    float: right;
+    padding-top: 15px;
+    width: 300px;
+    padding-right: 10px;
+    font-size: 120%;
+    text-align: right;
+}
+
+.top .headerCon .userLoginMsg span{
+    padding-left: 15px;
+    padding-bottom: 2px;
+    width: 300px;
+}
+
+.top .headerCon .userLoginMsg s.username{
+    background: url("../images/button/user_friend.png") no-repeat;
+    background-position: -75px 0;
+    padding-left: -50px;
+}
+
+.tabnav{
+    height: 70px;
+}
+
+.mainMenuBst{
+    float: left;
+    width: 100%;
+    background: #F4F7FB;
+    font-size: 93%;
+    line-height: normal;
+    border-bottom: 1px solid #BCD2E6;
+}
+.mainMenuBst ul.mainMenu{
+    margin: 0;
+    padding: 10px 150px 0 150px;
+    list-style: none;
+}
+.mainMenuBst ul.mainMenu li {
+    float:left;
+    list-style: none;
+    text-align: center;
+
+}
+.mainMenuBst ul.mainMenu li a{
+    float: left;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+    background: url("../images/bg/tableft1.gif") no-repeat left top;
+}
+.mainMenuBst ul.mainMenu li a span{
+    width: 100px;
+    float: left;
+    display: block;
+    background: url("../images/bg/tabright1.gif") no-repeat right top;
+    padding: 5px 15px 4px 6px;
+    color: #627EB7;
+}
+
+.mainMenuBst ul.mainMenu li a:hover {
+    background-position:0% -42px;
+}
+.mainMenuBst ul.mainMenu li a:hover span {
+    background-position:100% -42px;
+}
+
+.nav-bottom .nav-bottomtab{
+    background: url(../images/bg/navbg-down.jpg) no-repeat;
+    height: 35px;
+    width: 970px;
+    float: left;
+    margin-left: 100px;
+}
+.nav-bottom .nav-bottomtab .navcontent {
+    width: 970px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*页尾开始*/
+
+#footer{
+    width:100%;
+    height:81px;
+    font-size:11px;
+    clear:both;
+    padding-top: 4px;
+    background-image: url(../images/bg/bot_bg.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+#footer ul{
+    text-align:center;
+    line-height:12px;
+    margin: 0;
+    padding-top: 10px;
+}
+#footer li{
+    display:inline;
+}
+#footer li a{
+    color:#000000;
+    text-decoration:none;
+    margin:0 10px;
+}
+#footer li a:visited{text-decoration:none}
+#footer li a:hover{text-decoration:underline}
+#footer p{
+    text-align:center;
+    padding:20px 0 0  0
+}
+#footer p span{
+    padding-left: 20px;
+}
+#footer p span a{
+    color:#0052AE;
+    text-decoration:underline; 
+}
+#footer p span a:visited{text-decoration:underline}
+#footer p span a:hover{text-decoration:none}
+
+
+.righton{
+    background: #cccccc;
+}

@@ -1,0 +1,11 @@
+a.closeBtn{position:absolute;top:5px;right:5px;display:block;width:40px;padding:2px 0;text-align:center;background:#fff;border:1px solid #85B6E2;color:#333;}
+a.closeBtn:hover{color:#fff;border:1px solid #85B6E2;background:#85B6E2;}
+
+/* blk */
+.blk{width:500px;position:relative;}
+.blk .pop_main{border:2px solid #85B6E2;position:relative;background:#fff;}
+.blk .pop_main p{font-size: 14px;}
+.blk .pop_main #deleteYesButton{width: 50px;margin-right: 30px;}
+.blk .pop_main .closeInput{width: 50px;}
+.t5 .blk{width:700px;}
+.t5 .blk h2{color:#aaa;}
